@@ -1,0 +1,192 @@
+/* styles.css */
+h1 {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+/* Import the Navbar.css styles */
+.navbar {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgba(255, 255, 255, 0.559);
+  color: black;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.navbar button {
+  font-size: 1rem;
+  background-color: red;
+  color: white;
+  border: 1px solid red;
+  padding: 0.5rem 1rem;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+
+.navbar button:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(0, 0, 0);
+  padding: 0.5rem 1rem;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+
+button {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: red;
+  color: white;
+  padding: 23px 19px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover{
+  font-family: cursive;
+  color: black;
+  background-color: white;
+}
+
+.heading h1 {
+  color: rgb(0, 0, 0);
+  font-size: 4rem;
+  margin: 0;
+}
+
+.heading {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  z-index: 100;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Adding drop shadow */
+  text-align: end;
+  padding: 20px;
+  background-color: rgb(247, 246, 246);
+  color: rgb(0, 0, 0);
+}
+
+
+
+h2 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+/* Search */
+.search {
+  margin: 0px 37.8%;
+  display: flex;
+  align-items: center;
+}
+
+#search {
+  height: 1.4rem;
+  width:130rem;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 15px 36%;
+}
+
+.search button {
+  background-color: #333;
+  /* Black button color */
+  color: #fff;
+  /* White text color */
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.search button:hover {
+  background-color: #555;
+  /* Darker gray button color on hover */
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.flower {
+  margin: 100px 1rem;
+  opacity: 0;
+  width: 30rem;
+  animation: fadeIn 1s ease-in-out forwards;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.flower h2 {
+  color: #af0000; /* Marigold orange color */
+}
+
+.flower p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.flower b {
+  color: #970000; /* Marigold orange color */
+}
+
+.flower q {
+  color: #da0000; /* Green color for quotes */
+}
+
+.flower ul {
+  list-style-type:lower-roman;
+  padding: 0;
+}
+
+.flower li {
+  margin-bottom: 20px;
+}
+
+/* Add additional styling for the table if needed */
+.flower table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.flower td, .flower th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.flower th {
+  background-color: #f2f2f2;
+}
+
+
+ @keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.search input{
+  height: 230px;
+}
